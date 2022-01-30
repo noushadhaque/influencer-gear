@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* ============================
+common css style- start here
+==============================*/
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* ============================
+common css style- end here
+==============================*/
+
+/* ============================
+header style- start here
+==============================*/
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+
+.logo-part .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.menu-part ul {
+    display: flex;
+    margin-top: 5px;
+}
+
+.menu-part ul li {
+    margin: 0 17px;
+}
+
+.menu-part ul li a {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+    transition: .3s;
+}
+
+.menu-part ul li a:hover {
+    color: #ff8080;
+}
+
+.menu-part a {
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px;
+    color: #3a3a3a;
+    margin-right: 15px;
+    transition: .3s ease;
+}
+
+.menu-part a:hover {
+    color: #ff8080;
+}
+
+/* ============================
+header style- end here
+==============================*/
+
+/* ============================
+banner style- start here
+==============================*/
+#banner-section {
+    padding: 50px 0;
+}
+
+.banner-main {
+    display: flex;
+}
+
+.banner-main .banner-details {
+    width: 55%;
+    margin-top: 100px;
+}
+
+.banner-main .banner-details .banner-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.banner-main .banner-details .banner-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+    width: 505px;
+    margin: 20px 0;
+}
+
+.banner-main .banner-details .banner-btn {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+    padding: 10px 24px;
+    background-color: #ff8080;
+    color: #fff;
+    border-radius: 40px;
+    transition: .3s ease;
+}
+
+.banner-main .banner-details .btn-arrow {
+    margin-left: 5px;
+}
+
+.banner-main .banner-details .banner-btn:hover {
+    background-color: #ff471a;
+}
+
+.banner-main .banner-image {
+    width: 45%;
+    position: relative;
+}
+
+.banner-main .banner-image .camera-image {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.banner-main .banner-image .camera-image img {
+    width: 100%;
+}
+
+.banner-main .banner-image .circle-shape img {
+    width: 100%;
+}
+
+/* ============================
+banner style- start here
+==============================*/
+
+/* ============================
+partners style- start here
+==============================*/
+#partner-section {
+    margin-bottom: 100px;
+}
+
+.partner-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 30px 0;
+    background-image: linear-gradient(to left, rgba(240, 240, 245, 0), rgba(240, 240, 245, 1), rgba(240, 240, 245, 0));
+    ;
+}
+
+/* ============================
+partners style- end here
+==============================*/
+
+/* ============================
+collection style- start here
+==============================*/
+#collection-section {
+    margin-bottom: 50px;
+}
+
+.collection-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collection-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.item {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.item-img img {
+    width: 100%;
+}
+
+.item-txt .item-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #3A3A3A;
+    margin-top: 10px;
+}
+
+.item-txt .item-price {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000;
+    margin: 5px 0;
+}
+
+.item-txt .ratings {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #5E6366;
+}
+
+.item-txt .ratings i {
+    color: #FB8200;
+}
+
+.item-txt .product-shifting {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #787885;
+}
+
+#collection-section .collection-btn {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ff8080;
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    transition: .3s ease;
+}
+
+#collection-section .collection-btn:hover {
+    color: #ff471a;
+}
+
+#collection-section .btn-arrow {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+/* ============================
+collection style- end here
+==============================*/
+
+/* ============================
+feature style- start here
+==============================*/
+.feature-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
+
+.feature-text .feature-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.feature-text {
+    margin-top: 24px;
+}
+
+.feature-text .feature-details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+.feature-text .feature-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #ff8080;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+.feature-text .feature-btn:hover {
+    background-color: #ff471a;
+}
+
+.feature-text .btn-arrow {
+    margin-left: 5px;
+}
+
+/* ============================
+feature style- end here
+==============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================
+footer style- start here
+==============================*/
+#footer-section {
+    background-color: #0A0826;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-main .footer-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.footer-main .copyright-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #D9DBE1;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.footer-main .social-link {
+    margin-top: 20px;
+}
+
+.footer-main .social-link i {
+    margin: 0 10px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #22213C;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.footer-main .social-link i:hover{
+    background-color: #38375f;
+}
+
+/* ============================
+footer style- end here
+==============================*/

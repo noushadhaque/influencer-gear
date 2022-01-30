@@ -1,0 +1,152 @@
+/* =======mobile device======= */
+
+@media (max-width:480px) {
+
+    /* ===============================
+    header part start here
+    ================================*/
+
+    .container {
+        width: 100%;
+    }
+
+    .logo-part {
+        margin-left: 20px;
+    }
+
+    .logo-part .logo {
+        font-size: 22px;
+    }
+
+    .menu-part ul li {
+        display: none;
+    }
+
+    .menu-part ul a {
+        margin-right: 20px;
+    }
+
+
+    /* ===============================
+    header part ends here
+    ================================*/
+
+    /* ===============================
+    banner part start here
+    ================================*/
+
+    .container {
+        width: 100%;
+    }
+
+    .banner-main {
+        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .banner-main .banner-details {
+        width: 100%;
+        text-align: center;
+        margin-top: -20px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+
+    .banner-main .banner-details .banner-title {
+        font-size: 28px;
+        line-height: 42px;
+        margin: 0 auto;
+    }
+
+    .banner-main .banner-details .banner-text {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .banner-main .banner-image {
+        width: 100%;
+    }
+
+    /* ===============================
+    banner part ends here
+    ================================*/
+
+    /* ===============================
+    partners part start here
+    ================================*/
+    .partner-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 30px 20px 20px 20px;
+    }
+
+    /* ===============================
+    partners part ends here
+    ================================*/
+
+    /* ===============================
+    colelction part start here
+    ================================*/
+    .collection-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .collection-main .item {
+        margin: 0 20px;
+    }
+
+    .collection-btn {
+        margin-right: 20px;
+    }
+
+    /* ===============================
+    collection part ends here
+    ================================*/
+
+    /* ===============================
+    feature part start here
+    ================================*/
+    .feature-main {
+        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .feature-main {
+        display: inline-flex;
+        flex-direction: column-reverse;
+    }
+
+    .feature-main .feature-text {
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .feature-text .feature-title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .feature-main .feature-image {
+        margin: 20px auto;
+    }
+
+    .feature-main .feature-image img {
+        width: 100%;
+    }
+
+    /* ===============================
+    feature part ends here
+    ================================*/
+
+    /* ===============================
+    footer part start here
+    ================================*/
+
+    /* ===============================
+    footer part ends here
+    ================================*/
+}
